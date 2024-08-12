@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
             squares[currentLaserIndex].classList.remove('laser')
             currentLaserIndex -= width
             squares[currentLaserIndex].classList.add('laser')
-            if (squares[currentLaserIndex].contains('invader')) {
+            if (squares[currentLaserIndex].classList.contains('invader')) {
                 squares[currentLaserIndex].classList.remove('laser')
                 squares[currentLaserIndex].classList.remove('invader')
                 squares[currentLaserIndex].classList.add('boom')
@@ -111,12 +111,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        // document.addEventListener('keydown', e => {
-        //     // console.log(e.keyCode)
-        //     if (e.KeyboardEvent.key === 32) {
-        //         laserId = setInterval(moveLaser, 100)
-        //     }
-        // })
         switch(e.keyCode) {
             case 32:
                 laserId = setInterval(moveLaser, 100)
