@@ -21,6 +21,10 @@
 }
 
 .boom {
+    background-color: red;
+}
+
+.laser {
     background-color: yellow;
 }
 
