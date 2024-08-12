@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const alienTakenDown = alienInvaders.indexOf(currentLaserIndex)
                 alienInvadersTakenDown.push(alienTakenDown)
-                result++
+                result += 100
                 resultDisplay.textContent = result
             }
 
