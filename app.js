@@ -19,6 +19,5 @@ document.addEventListener("DOMContentLoaded", () => {
     ]
 
     // draw the alien invaders
-    alienInvaders.forEach(invader => squares[currentInvaderIndex + invader].classList.add('invader'))
-    // console.log(squares[1])
+    alienInvaders.forEach( invader => squares[currentInvaderIndex + invader].classList.add('invader'))
 })
