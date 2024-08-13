@@ -9,6 +9,7 @@ main {
     border: solid 1px greenyellow;
     background-image: url("/assets/space-tile.png");
     background-repeat: repeat;
+    margin: auto;
 }
 
 .result-text {
@@ -55,4 +56,18 @@ main {
 .laser {
     background-image: url("/assets/laser-ball1.png");
     background-size: contain;
+}
+
+.bottom-headers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lives-container {
+    padding-left: 1em;
+}
+
+.lives-img {
+    height: 30px;
+    width: 30px;
 }
