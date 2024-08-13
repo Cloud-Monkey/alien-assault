@@ -1,38 +1,39 @@
 body {
     background-color: #333;
     width: 100vw;
-    text-align: center;
     overflow-x: hidden;
 }
 
 main {
-    margin: auto;
-    width: 100%;
+    width: 75vh;
+    border: solid 1px greenyellow;
+    background-image: url("/assets/space-tile.png");
+    background-repeat: repeat;
 }
 
 .result-text {
-    color: greenyellow;
+    color: #fafafa;
     font-family: "VT323", monospace;
     font-weight: 300;
     font-style: normal;
-    font-size: large;
-    margin: 1em 0;
+    font-size: x-large;
+    padding: 1em;
+    margin: 0;
 }
 
 #result {
-    color: #fafafa;
-    font-family: "VT323", monospace;
     font-weight: 700;
+}
+
+.credit-text {
+    text-align: right;
 }
 
 .grid {
     display: grid;
     grid-template: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% / 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
-    border: solid 1px greenyellow;
     width: 75vh;
     height: 75vh;
-    background-image: url("/assets/space-tile.png");
-    background-repeat: repeat;
     margin: auto;
 }
 
