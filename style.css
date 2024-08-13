@@ -5,13 +5,15 @@ body {
 .result-text {
     color: greenyellow;
     font-family: "VT323", monospace;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: large;
 }
 
 #result {
     color: #fafafa;
+    font-family: "VT323", monospace;
+    font-weight: 700;
 }
 
 .grid {
