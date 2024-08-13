@@ -4,6 +4,9 @@
     border: solid 1px black;
     width: 300px;
     height: 300px;
+    background-image: url("/assets/parallax-space-stars.png");
+    background-color: #333;
+    background-size: contain;
 }
 
 .shooter {
