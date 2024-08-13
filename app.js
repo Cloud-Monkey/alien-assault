@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let direction = 1
     let invaderId
 
+    // play game music on load
+    
+
     // define the alien invaders
     const alienInvaders = [
         0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
