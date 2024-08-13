@@ -1,15 +1,14 @@
 body {
-    background-color: #333;
     width: 100vw;
     overflow-x: hidden;
+    background-image: url("/assets/space-background.png");
 }
 
 main {
     width: 75vh;
     border: solid 1px greenyellow;
-    background-image: url("/assets/space-tile.png");
-    background-repeat: repeat;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.71);
 }
 
 .result-text {
