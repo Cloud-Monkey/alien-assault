@@ -1,9 +1,9 @@
 .grid {
     display: grid;
-    grid-template: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px / 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px / 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
     border: solid 1px black;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     background-image: url("/assets/parallax-space-stars.png");
     background-color: #333;
     background-size: contain;
@@ -25,7 +25,9 @@
 }
 
 .laser {
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-image: url("/assets/laser-shot.png");
+    background-size: contain;
 }
 
 
