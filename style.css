@@ -10,18 +10,19 @@
 }
 
 .shooter {
-    /* background-color: blue; */
-    background-image: url("/assets/ship_6.png");
-    background-size: contain;
+    background-image: url("/assets/starship1.png");
+    background-size: cover;
 }
 
 .invader {
-    background-color: purple;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    background-image: url("/assets/alien1.png");
+    background-size: contain;
 }
 
 .boom {
-    background-color: red;
+    background-image: url("/assets/boom1.png");
+    background-size: contain;
 }
 
 .laser {
