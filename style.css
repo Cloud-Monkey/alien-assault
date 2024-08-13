@@ -25,7 +25,6 @@
 }
 
 .laser {
-    /* background-color: yellow; */
     background-image: url("/assets/laser-shot.png");
     background-size: contain;
 }
