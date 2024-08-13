@@ -7,7 +7,9 @@
 }
 
 .shooter {
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: url("/assets/ship_6.png");
+    background-size: contain;
 }
 
 .invader {
