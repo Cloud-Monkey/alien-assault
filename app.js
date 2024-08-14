@@ -8,9 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let result = 0
     let direction = 1
     let invaderId
-
-    // play game music on load
     
+    // play game music on load
+    let titlemusic = document.getElementsByClassName("title-music");
+    titlemusic.volume = 0.1;
 
     // define the alien invaders
     const alienInvaders = [

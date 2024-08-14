@@ -88,7 +88,7 @@ main {
 
 .title-grid {
     display: grid;
-    grid-template: calc(90vh - 40px) 40px / 100%;
+    grid-template: calc(90vh - 60px) 40px / 100%;
     width: 75vh;
     height: 75vh;
     margin: auto;
