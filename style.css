@@ -70,3 +70,19 @@ main {
     height: 30px;
     width: 30px;
 }
+
+
+/* home page style rules */
+
+.main-title {
+    text-align: center;
+    color: rgb(255, 245, 47);
+    font-family: "Space Mono", monospace;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 5em;
+    padding: 1em;
+    margin: 0;
+    text-shadow: 5px 5px 4px #4c8ede;
+
+}
