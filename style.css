@@ -6,6 +6,7 @@ body {
 
 main {
     width: 75vh;
+    min-height: 90vh;
     border: solid 1px greenyellow;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.71);
@@ -75,14 +76,20 @@ main {
 /* home page style rules */
 
 .main-title {
-    text-align: center;
-    color: rgb(255, 245, 47);
-    font-family: "Space Mono", monospace;
-    font-weight: 1000;
-    font-style: normal;
-    font-size: 5em;
-    padding: 1em;
+    display: flex;
+    justify-content: center;
+    height: 200px;
     margin: 0;
-    text-shadow: 5px 5px 4px #4c8ede;
+}
 
+.title-img {
+    width: 100%;
+}
+
+.title-grid {
+    display: grid;
+    grid-template: calc(90vh - 40px) 40px / 100%;
+    width: 75vh;
+    height: 75vh;
+    margin: auto;
 }
