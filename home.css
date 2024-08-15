@@ -1,0 +1,174 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #000;
+    background-image: url("/assets/space-background.png");
+}
+
+main {
+    width: 75vh;
+    min-height: 90vh;
+    border: solid 1px greenyellow;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+
+.result-text {
+    color: #fafafa;
+    font-family: "VT323", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-large;
+    padding: 1em;
+    margin: 0;
+}
+
+#result {
+    font-weight: 700;
+}
+
+.credit-text {
+    text-align: right;
+    padding: 0 1em;
+}
+
+.grid {
+    display: grid;
+    grid-template: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% / 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    width: 75vh;
+    height: 75vh;
+    margin: auto;
+}
+
+.shooter {
+    background-image: url("/assets/starship1.png");
+    background-size: cover;
+}
+
+.invader {
+    background-image: url("/assets/alien1.png");
+    background-size: contain;
+}
+
+.boom {
+    background-image: url("/assets/boom1.png");
+    background-size: contain;
+}
+
+.laser {
+    background-image: url("/assets/laser-ball1.png");
+    background-size: contain;
+}
+
+.bottom-headers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lives-container {
+    padding-left: 1em;
+}
+
+.lives-img {
+    height: 30px;
+    width: 30px;
+}
+
+/* home page style rules */
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin: 0;
+}
+
+.title-img {
+    width: 100%;
+}
+
+.title-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+    margin: auto;
+}
+
+/* audio player style rules */
+
+.controls {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.left-controls {
+    position: relative;
+    top: 1%;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-controls {
+    position: relative;
+    padding: 10px;
+    top: 1.5px;
+}
+
+.fa-volume-up,
+.fa-solid {
+    font-size: small;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+button,
+input {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+}
+
+#volume {
+    position: relative;
+    left: 5px;
+    width: 50px;
+    height: 3px;
+}
+
+#mute {
+    cursor: pointer;
+}
+
+/* play game button */
+
+.play-game-button {
+    color: #fafafa;
+    font-family: "VT323", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    padding: 0 1em;
+    margin: auto;
+    width: fit-content;
+}
