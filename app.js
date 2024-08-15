@@ -32,9 +32,6 @@ function togglePlayPause() {
 document.addEventListener("keydown", function (event) {
     if (event.key === 32 || event.key === " ") {
         event.preventDefault();
-
-        // Prevent scrolling the page down
-        // togglePlayPause();
     }
 });
 
