@@ -42,7 +42,7 @@ main {
 }
 
 .invader {
-    background-image: url("/assets/alien1.png");
+    background-image: url("/assets/alien-title.gif");
     background-size: contain;
 }
 
