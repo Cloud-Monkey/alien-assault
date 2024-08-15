@@ -27,11 +27,6 @@ main {
     font-weight: 700;
 }
 
-.credit-text {
-    text-align: right;
-    padding: 0 1em;
-}
-
 .grid {
     display: grid;
     grid-template: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% / 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
@@ -102,7 +97,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 1em;
     transition: opacity 0.3s ease-in-out;
 }
 

@@ -12,6 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap"
         rel="stylesheet">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -440,15 +444,38 @@
             <div></div>
         </div>
         <div class="bottom-headers">
-            <h2 class="lives-container">
+            <!-- <h2 class="lives-container">
                 <img class="lives-img" src="/assets/lives.png" alt="life starship">
                 <img class="lives-img" src="/assets/lives.png" alt="life starship">
                 <img class="lives-img" src="/assets/lives.png" alt="life starship">
-            </h2>
-            <h2 class="result-text credit-text">CREDITS <span>00</span></h2>
+            </h2> -->
+            <!-- audio element -->
+            <div class="audio-container">
+                <audio loop id="title-music">
+                    <source src="/assets/title-music-chill.mp3" type="audio/mp3">
+                </audio>
+                <!-- audio player controls -->
+                <div class="controls">
+                    <div class="left-controls">
+                        <button id="play-pause">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="right-controls">
+                        <div class="volume-container">
+                            <div id="mute">
+                                <i class="fas fa-volume-up"></i>
+                            </div>
+                            <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="result-text credit-text">CREDITS <span>00</span></p>
         </div>
     </main>
     <script src="game.js" charset="UTF-8"></script>
+    <!-- <script src="app.js" charset="UTF-8"></script> -->
 </body>
 
 </html>
