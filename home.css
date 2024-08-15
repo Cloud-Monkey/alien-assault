@@ -92,7 +92,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 90vh;
+    min-height: 96vh;
     margin: auto;
 }
 
