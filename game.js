@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const squares = document.querySelectorAll('.grid div')
     const resultDisplay = document.querySelector('#result')
+    const audio = document.getElementById("title-music");
+    const playpause = document.getElementById("play-pause");
     let width = 20
     let currentShooterIndex = 390
     let currentInvaderIndex = 0
@@ -10,11 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
     let invaderId
 
     // play game music on load
-    
+    audio.play();
+    playpause.innerHTML = '<i class="fa-solid fa-pause"></i>';
 
     // define the alien invaders
     const alienInvaders = [
-         0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10,
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
         40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
         60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70
@@ -79,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
         //  decide a win
-        if(alienInvadersTakenDown.length === alienInvaders.length) {
+        if (alienInvadersTakenDown.length === alienInvaders.length) {
             resultDisplay.textContent = 'You Win!'
             clearInterval(invaderId)
         }
@@ -115,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        switch(e.keyCode) {
+        switch (e.keyCode) {
             case 32:
                 laserId = setInterval(moveLaser, 100)
                 break

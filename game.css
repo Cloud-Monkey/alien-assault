@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     background-color: #000;
     background-image: url("/assets/space-background.png");
+    margin: 9px 0;
 }
 
 main {
