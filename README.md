@@ -13,3 +13,5 @@ Custom audio player controls https://www.geeksforgeeks.org/custom-video-player-u
 alien gif for title https://id.picmix.com/stamp/alien-ufo-2626116
 
 favicon generated using https://favicon.io/
+
+laser sound effect https://mixkit.co/free-sound-effects/space-shooter/
