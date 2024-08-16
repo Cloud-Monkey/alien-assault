@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function makeBoomSound() {
         boomAudioContainer.innerHTML = `<audio id="boom-audio-element">
         <source src="/assets/sounds/boom-sound.mp3" type="audio/mp3">
-    </audio>`
+        </audio>`
         const boomAudio = document.getElementById("boom-audio-element")
         boomAudio.play()
     }
