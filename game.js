@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const audio = document.getElementById("title-music");
     const playpause = document.getElementById("play-pause");
     const laserAudioContainer = document.getElementById("laser-sound");
+    const boomAudioContainer = document.getElementById("boom-sound");
     let width = 20
     let currentShooterIndex = 390
     let currentInvaderIndex = 0
@@ -73,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (squares[currentShooterIndex].classList.contains('invader', 'shooter')) {
             resultDisplay.textContent = 'Game Over';
             squares[currentShooterIndex].classList.add('boom')
+            makeBoomSound()
             clearInterval(invaderId)
         }
 
@@ -98,6 +100,15 @@ document.addEventListener("DOMContentLoaded", () => {
         laserAudio.play()
     }
 
+    // play boom sound effect
+    function makeBoomSound() {
+        boomAudioContainer.innerHTML = `<audio id="boom-audio-element">
+        <source src="/assets/sounds/boom-sound.mp3" type="audio/mp3">
+    </audio>`
+        const boomAudio = document.getElementById("boom-audio-element")
+        boomAudio.play()
+    }
+
     // shoot at aliens
     function shoot(e) {
         let laserId
@@ -112,9 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 squares[currentLaserIndex].classList.remove('laser')
                 squares[currentLaserIndex].classList.remove('invader')
                 squares[currentLaserIndex].classList.add('boom')
-
-                // play boom sound effect
-                // ???
+                makeBoomSound()
 
                 setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 250)
                 clearInterval(laserId)

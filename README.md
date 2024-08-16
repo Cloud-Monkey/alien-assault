@@ -15,3 +15,5 @@ alien gif for title https://id.picmix.com/stamp/alien-ufo-2626116
 favicon generated using https://favicon.io/
 
 laser sound effect https://mixkit.co/free-sound-effects/space-shooter/
+
+explosion sound effect Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=43814">Pixabay</a>
