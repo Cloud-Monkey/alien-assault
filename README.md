@@ -11,3 +11,5 @@ Title screen chill music by <a href="https://pixabay.com/users/lesiakower-257015
 Custom audio player controls https://www.geeksforgeeks.org/custom-video-player-using-html-css-and-javascript/
 
 alien gif for title https://id.picmix.com/stamp/alien-ufo-2626116
+
+favicon generated using https://favicon.io/
