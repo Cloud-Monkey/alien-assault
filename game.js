@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const resultDisplay = document.querySelector('#result')
     const audio = document.getElementById("title-music");
     const playpause = document.getElementById("play-pause");
+    const laserAudioContainer = document.getElementById("laser-sound");
     let width = 20
     let currentShooterIndex = 390
     let currentInvaderIndex = 0
@@ -88,14 +89,19 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     invaderId = setInterval(moveInvaders, 500)
+    // add audio element and remove it for shoot sound
+    function makeShotSound() {
+        laserAudioContainer.innerHTML = `<audio id="laser-audio-element">
+        <source src="/assets/sounds/laser-gun-sound.wav" type="audio/wav">
+    </audio>`
+        const laserAudio = document.getElementById("laser-audio-element")
+        laserAudio.play()
+    }
 
     // shoot at aliens
     function shoot(e) {
         let laserId
         let currentLaserIndex = currentShooterIndex
-
-        // play firing sound effect
-        // ???
 
         // move laser to the alien from the shooter
         function moveLaser() {
@@ -128,6 +134,8 @@ document.addEventListener("DOMContentLoaded", () => {
         switch (e.keyCode) {
             case 32:
                 laserId = setInterval(moveLaser, 100)
+                // play firing sound effect
+                makeShotSound();
                 break
         }
     }
