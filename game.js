@@ -93,6 +93,10 @@ document.addEventListener("DOMContentLoaded", () => {
     function shoot(e) {
         let laserId
         let currentLaserIndex = currentShooterIndex
+
+        // play firing sound effect
+        // ???
+
         // move laser to the alien from the shooter
         function moveLaser() {
             squares[currentLaserIndex].classList.remove('laser')
@@ -102,6 +106,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 squares[currentLaserIndex].classList.remove('laser')
                 squares[currentLaserIndex].classList.remove('invader')
                 squares[currentLaserIndex].classList.add('boom')
+
+                // play boom sound effect
+                // ???
 
                 setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 250)
                 clearInterval(laserId)
