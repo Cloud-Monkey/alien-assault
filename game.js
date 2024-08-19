@@ -75,18 +75,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // decide a game is over
         if (squares[currentShooterIndex].classList.contains('invader', 'shooter')) {
-            resultDisplay.textContent = 'Game Over';
             squares[currentShooterIndex].classList.add('boom')
             makeBoomSound()
             clearInterval(invaderId)
             gameActive = false
+            // makes booms all over the screen at random for game over explosion
+            squares.forEach(square => {
+                setTimeout(() => {
+                    square.classList = 'boom'
+                }, Math.random() * 500)
+                setTimeout(() => {
+                    square.classList = ''
+                }, 500)
+            })
         }
 
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
             if (alienInvaders[i] > (squares.length - (width - 1))) {
-                resultDisplay.textContent = 'Game Over';
                 clearInterval(invaderId)
                 gameActive = false
+                // makes booms all over the screen at random for game over explosion
+                squares.forEach(square => {
+                    setTimeout(() => {
+                        square.classList = 'boom'
+                    }, Math.random() * 500)
+                    setTimeout(() => {
+                        square.classList = ''
+                    }, 500)
+                })
             }
         }
         //  decide a win
@@ -96,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
             gameActive = false
         }
     }
-    invaderId = setInterval(moveInvaders, 500)
+    invaderId = setInterval(moveInvaders, 250)
     // add audio element and remove it for shoot sound
     function makeShotSound() {
         if (gameActive) {
