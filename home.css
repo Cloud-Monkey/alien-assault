@@ -16,7 +16,7 @@ main {
 
 .result-text {
     color: #fafafa;
-    font-family: "VT323", monospace;
+    font-family: "VT323", monospace, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: x-large;
@@ -146,13 +146,20 @@ input {
 .play-game-button {
     color: #fafafa;
     background-color: rgb(18, 88, 150);
-    font-family: "VT323", monospace;
+    font-family: "VT323", monospace, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: xx-large;
-    padding: 0 1em;
+    padding: 0.5em 1.5em;
     margin: auto;
     width: fit-content;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: solid 1px greenyellow;
+}
+
+.play-game-button:hover {
+    background-color: rgb(18, 150, 71);
 }
 
 .alien-gif {
