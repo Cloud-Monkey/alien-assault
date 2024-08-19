@@ -18,16 +18,16 @@ playpause.addEventListener("click", function () {
 let isPlaying = false;
 
 // Function to toggle play/pause
-// function togglePlayPause() {
-//     if (isPlaying) {
-//         audio.pause();
-//         playpause.innerHTML = '<i class="fa-solid fa-play"></i>';
-//     } else {
-//         audio.play();
-//         playpause.innerHTML = '<i class="fa-solid fa-pause"></i>';
-//     }
-//     isPlaying = !isPlaying;
-// }
+function togglePlayPause() {
+    if (isPlaying) {
+        audio.pause();
+        playpause.innerHTML = '<i class="fa-solid fa-play"></i>';
+    } else {
+        audio.play();
+        playpause.innerHTML = '<i class="fa-solid fa-pause"></i>';
+    }
+    isPlaying = !isPlaying;
+}
 
 document.addEventListener("keydown", function (event) {
     if (event.key === 32 || event.key === " ") {
