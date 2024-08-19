@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let result = 0
     let direction = 1
     let invaderId
+    let gameActive = true
 
     // play game music on load
     audio.play();
@@ -33,16 +34,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // move the shooter along a line
     function moveShooter(e) {
-        squares[currentShooterIndex].classList.remove('shooter')
-        switch (e.keyCode) {
-            case 37:
-                if (currentShooterIndex % width !== 0) currentShooterIndex -= 1
-                break
-            case 39:
-                if (currentShooterIndex % width < width - 1) currentShooterIndex += 1
-                break
+        if (gameActive) {
+            squares[currentShooterIndex].classList.remove('shooter')
+            switch (e.keyCode) {
+                case 37:
+                    if (currentShooterIndex % width !== 0) currentShooterIndex -= 1
+                    break
+                case 39:
+                    if (currentShooterIndex % width < width - 1) currentShooterIndex += 1
+                    break
+            }
+            squares[currentShooterIndex].classList.add('shooter')
         }
-        squares[currentShooterIndex].classList.add('shooter')
     }
 
     document.addEventListener('keydown', moveShooter)
@@ -76,76 +79,85 @@ document.addEventListener("DOMContentLoaded", () => {
             squares[currentShooterIndex].classList.add('boom')
             makeBoomSound()
             clearInterval(invaderId)
+            gameActive = false
         }
 
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
             if (alienInvaders[i] > (squares.length - (width - 1))) {
                 resultDisplay.textContent = 'Game Over';
                 clearInterval(invaderId)
+                gameActive = false
             }
         }
         //  decide a win
         if (alienInvadersTakenDown.length === alienInvaders.length) {
             resultDisplay.textContent = 'You Win!'
             clearInterval(invaderId)
+            gameActive = false
         }
     }
     invaderId = setInterval(moveInvaders, 500)
     // add audio element and remove it for shoot sound
     function makeShotSound() {
-        laserAudioContainer.innerHTML = `<audio id="laser-audio-element">
-        <source src="./assets/sounds/laser-gun-sound.wav" type="audio/wav">
-        </audio>`
-        const laserAudio = document.getElementById("laser-audio-element")
-        laserAudio.play()
+        if (gameActive) {
+            laserAudioContainer.innerHTML = `<audio id="laser-audio-element">
+            <source src="./assets/sounds/laser-gun-sound.wav" type="audio/wav">
+            </audio>`
+            const laserAudio = document.getElementById("laser-audio-element")
+            laserAudio.play()
+        }
     }
 
     // play boom sound effect
     function makeBoomSound() {
-        boomAudioContainer.innerHTML = `<audio id="boom-audio-element">
-        <source src="./assets/sounds/boom-sound.mp3" type="audio/mp3">
-        </audio>`
-        const boomAudio = document.getElementById("boom-audio-element")
-        boomAudio.play()
+        if (gameActive) {
+            boomAudioContainer.innerHTML = `<audio id="boom-audio-element">
+            <source src="./assets/sounds/boom-sound.mp3" type="audio/mp3">
+            </audio>`
+            const boomAudio = document.getElementById("boom-audio-element")
+            boomAudio.play()
+        }
     }
 
     // shoot at aliens
     function shoot(e) {
-        let laserId
-        let currentLaserIndex = currentShooterIndex
+        if (gameActive) {
+            let laserId
+            let currentLaserIndex = currentShooterIndex
 
-        // move laser to the alien from the shooter
-        function moveLaser() {
-            squares[currentLaserIndex].classList.remove('laser')
-            currentLaserIndex -= width
-            squares[currentLaserIndex].classList.add('laser')
-            if (squares[currentLaserIndex].classList.contains('invader')) {
+            // move laser to the alien from the shooter
+            function moveLaser() {
                 squares[currentLaserIndex].classList.remove('laser')
-                squares[currentLaserIndex].classList.remove('invader')
-                squares[currentLaserIndex].classList.add('boom')
-                makeBoomSound()
+                currentLaserIndex -= width
+                squares[currentLaserIndex].classList.add('laser')
+                if (squares[currentLaserIndex].classList.contains('invader')) {
+                    squares[currentLaserIndex].classList.remove('laser')
+                    squares[currentLaserIndex].classList.remove('invader')
+                    squares[currentLaserIndex].classList.add('boom')
+                    makeBoomSound()
 
-                setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 250)
-                clearInterval(laserId)
+                    setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 250)
+                    clearInterval(laserId)
 
-                const alienTakenDown = alienInvaders.indexOf(currentLaserIndex)
-                alienInvadersTakenDown.push(alienTakenDown)
-                result += 100
-                resultDisplay.textContent = result
+                    const alienTakenDown = alienInvaders.indexOf(currentLaserIndex)
+                    alienInvadersTakenDown.push(alienTakenDown)
+                    result += 100
+                    resultDisplay.textContent = result
+                }
+
+                if (currentLaserIndex < width) {
+                    clearInterval(laserId)
+                    setTimeout(() => squares[currentLaserIndex].classList.remove('laser'), 100)
+                }
             }
 
-            if (currentLaserIndex < width) {
-                clearInterval(laserId)
-                setTimeout(() => squares[currentLaserIndex].classList.remove('laser'), 100)
+            switch (e.keyCode) {
+                case 32:
+                    laserId = setInterval(moveLaser, 100)
+                    // play firing sound effect
+                    makeShotSound();
+                    break
             }
-        }
-
-        switch (e.keyCode) {
-            case 32:
-                laserId = setInterval(moveLaser, 100)
-                // play firing sound effect
-                makeShotSound();
-                break
         }
     }
 
