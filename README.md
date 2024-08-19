@@ -1,5 +1,22 @@
+# Alien Assault
+
+![alien assaulter img](/assets/images/alien-title.gif)
+
 ## Project overview
 
+Our retro-style alien invader video game is a nostalgic nod to classic titles like Space Invaders. Featuring iconic 8-bit music and sound effects, it promises an immersive throwback experience. Simple yet engaging, it brings back the thrill of old-school gaming with a modern twist. The game includes an eye-catching title screen, a straightforward play button, and a dynamic game screen where the action unfolds.
+
+## Design direction
+Retro aesthetics: Embrace a pixelated 8-bit visual style.
+Bold, vibrant colors: Catching eyes, invoking classic game vibes.
+Intuitive interface: Easy access to play and navigate.
+Nostalgic elements: Include familiar arcade icons, sprites, and fonts.
+
+## Website Structure
+Hero Section: Appealing title screen, a play button, and an introduction.
+Game Features: Description of the gameplay, screenshots.
+Benefits: Highlights of the nostalgic and authentic experience.
+CTAs: Buttons to start playing immediately.
 
 ## List of features
 
