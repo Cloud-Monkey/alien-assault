@@ -2,7 +2,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-color: #000;
-    background-image: url("/assets/images/space-background.png");
+    background-image: url("assets/images/space-background.png");
     margin: 9px 0;
 }
 
@@ -37,22 +37,22 @@ main {
 }
 
 .shooter {
-    background-image: url("/assets/images/starship1.png");
+    background-image: url("assets/images/starship1.png");
     background-size: cover;
 }
 
 .invader {
-    background-image: url("/assets/images/alien-title.gif");
+    background-image: url("assets/images/alien-title.gif");
     background-size: contain;
 }
 
 .boom {
-    background-image: url("/assets/images/boom1.png");
+    background-image: url("assets/images/boom1.png");
     background-size: contain;
 }
 
 .laser {
-    background-image: url("/assets/images/laser-ball1.png");
+    background-image: url("assets/images/laser-ball1.png");
     background-size: contain;
 }
 
