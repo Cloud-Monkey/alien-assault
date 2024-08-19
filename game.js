@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const playpause = document.getElementById("play-pause");
     const laserAudioContainer = document.getElementById("laser-sound");
     const boomAudioContainer = document.getElementById("boom-sound");
+    const winLossModal = document.getElementById("win-loss-modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalTitle2 = document.getElementById("modal-title-2");
+
     let width = 20
     let currentShooterIndex = 390
     let currentInvaderIndex = 0
@@ -83,11 +87,14 @@ document.addEventListener("DOMContentLoaded", () => {
             squares.forEach(square => {
                 setTimeout(() => {
                     square.classList = 'boom'
-                }, Math.random() * 500)
+                }, Math.random() * 750)
                 setTimeout(() => {
                     square.classList = ''
-                }, 500)
+                }, 750)
             })
+            // make modal appear with game over
+            winLossModal.style.display = "block";
+
         }
 
         for (let i = 0; i <= alienInvaders.length - 1; i++) {
@@ -98,21 +105,37 @@ document.addEventListener("DOMContentLoaded", () => {
                 squares.forEach(square => {
                     setTimeout(() => {
                         square.classList = 'boom'
-                    }, Math.random() * 500)
+                    }, Math.random() * 750)
                     setTimeout(() => {
                         square.classList = ''
-                    }, 500)
+                    }, 750)
                 })
+                // make modal appear with game over
+                winLossModal.style.display = "block";
             }
         }
         //  decide a win
         if (alienInvadersTakenDown.length === alienInvaders.length) {
-            resultDisplay.textContent = 'You Win!'
             clearInterval(invaderId)
             gameActive = false
+            // make ship fly off on win condition scenario
+            squares.forEach((square, index) => {
+                if (currentShooterIndex % 20 === index % 20) {
+                setTimeout(() => {
+                    square.classList = 'shooter'
+                }, Math.random() * 950)
+                setTimeout(() => {
+                    square.classList = ''
+                }, 950)
+            }
+            })
+            // make modal appear with win
+            modalTitle.textContent = 'WAY TO GO!';
+            modalTitle2.textContent = 'YOU WIN!';
+            winLossModal.style.display = "block";
         }
     }
-    invaderId = setInterval(moveInvaders, 250)
+    invaderId = setInterval(moveInvaders, 490)
     // add audio element and remove it for shoot sound
     function makeShotSound() {
         if (gameActive) {

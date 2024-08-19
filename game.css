@@ -16,7 +16,7 @@ main {
 
 .result-text {
     color: #fafafa;
-    font-family: "VT323", monospace;
+    font-family: "VT323", monospace, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: x-large;
@@ -160,11 +160,62 @@ input {
 
 .play-game-button {
     color: #fafafa;
-    font-family: "VT323", monospace;
+    font-family: "VT323", monospace, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: xx-large;
     padding: 0 1em;
     margin: auto;
     width: fit-content;
+}
+
+/* win/loss modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20vh;
+    left: 20%;
+    top: 0;
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    overflow: auto;
+}
+
+.modal-content {
+    color: #fafafa;
+    font-family: "VT323", monospace, sans-serif;
+    font-style: normal;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#modal-title, #modal-title-2 {
+    margin: 0.5em;
+    font-weight: 50;
+}
+
+.modal-button {
+    color: #fafafa;
+    background-color: rgb(18, 88, 150);
+    font-family: "VT323", monospace, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-large;
+    padding: 0.3em 0.5em;
+    margin: auto;
+    margin-bottom: 1em;
+    width: fit-content;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: solid 1px greenyellow;
+}
+
+.modal-button:hover {
+    background-color: rgb(18, 150, 71);
 }

@@ -55,6 +55,8 @@ Explosion sound effect from Pixabay https://pixabay.com/?utm_source=link-attribu
 
 Deployment to Github pages guide https://docs.github.com/en/pages/quickstart
 
+Modal base code https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+
 ## Future features
 
 Larger/animated ship sprite
