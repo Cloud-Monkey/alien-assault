@@ -2,7 +2,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-color: #000;
-    background-image: url("/assets/images/space-background.png");
+    background-image: url("assets/images/space-background.png");
     margin: 9px 0;
 }
 
