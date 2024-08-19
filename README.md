@@ -1,4 +1,4 @@
-![alien assaulter img](/assets/images/title-logo.gif)
+![alien assaulter img](/assets/images/ALIEN-ASSAULT-19-08-2024.png)
 
 ## Project overview
 
@@ -43,7 +43,7 @@ Title screen chill music by Lesiakower Pixabay https://pixabay.com/users/lesiako
 
 Custom audio player controls https://www.geeksforgeeks.org/custom-video-player-using-html-css-and-javascript/
 
-Alien gif for title https://id.picmix.com/stamp/alien-ufo-2626116
+Alien gif for title screen https://id.picmix.com/stamp/alien-ufo-2626116
 
 Favicon generated using https://favicon.io/
 
