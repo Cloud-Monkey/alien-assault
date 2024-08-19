@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // add audio element and remove it for shoot sound
     function makeShotSound() {
         laserAudioContainer.innerHTML = `<audio id="laser-audio-element">
-        <source src="/assets/sounds/laser-gun-sound.wav" type="audio/wav">
+        <source src="./assets/sounds/laser-gun-sound.wav" type="audio/wav">
     </audio>`
         const laserAudio = document.getElementById("laser-audio-element")
         laserAudio.play()
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // play boom sound effect
     function makeBoomSound() {
         boomAudioContainer.innerHTML = `<audio id="boom-audio-element">
-        <source src="/assets/sounds/boom-sound.mp3" type="audio/mp3">
+        <source src="./assets/sounds/boom-sound.mp3" type="audio/mp3">
         </audio>`
         const boomAudio = document.getElementById("boom-audio-element")
         boomAudio.play()
