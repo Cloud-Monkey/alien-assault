@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function makeShotSound() {
         laserAudioContainer.innerHTML = `<audio id="laser-audio-element">
         <source src="./assets/sounds/laser-gun-sound.wav" type="audio/wav">
-    </audio>`
+        </audio>`
         const laserAudio = document.getElementById("laser-audio-element")
         laserAudio.play()
     }
