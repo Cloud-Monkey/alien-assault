@@ -1,4 +1,4 @@
-![alien assaulter img](/assets/images/ALIEN-ASSAULT-19-08-2024.png)
+![alien assaulter img](/assets/read-me-images/ALIEN-ASSAULT-19-08-2024.png)
 
 ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png)
 
