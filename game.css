@@ -223,25 +223,42 @@ input {
 
 /* game control overlay buttons style rules */
 .game-controls {
+    display: none;
     height: 10vh;
-    display: block;
     position: fixed;
     bottom: 10px;
     left: 0;
     right: 0;
-    display: flex;
     justify-content: space-around;
 }
 
 .control-button {
+    display: none;
     width: 30%;
 }
 
 .control-icon {
+    display: none;
     background-color: black;
     border: 2px solid greenyellow;
     border-radius: 50%;
     color: rgb(124, 192, 22);
+}
+
+/* control game control overlay visibility for touch screens */
+
+@media (hover: none) {
+    .game-controls {
+        display: flex;
+    }
+
+    .control-button {
+        display: block;
+    }
+
+    .control-icon {
+        display: block;
+    }
 }
 
 /* portrait screens media query styling */
