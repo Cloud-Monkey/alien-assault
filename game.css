@@ -195,7 +195,8 @@ input {
     width: 80%;
 }
 
-#modal-title, #modal-title-2 {
+#modal-title,
+#modal-title-2 {
     margin: 0.5em;
     font-weight: 50;
 }
@@ -218,6 +219,29 @@ input {
 
 .modal-button:hover {
     background-color: rgb(18, 150, 71);
+}
+
+/* game control overlay buttons style rules */
+.game-controls {
+    height: 10vh;
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-button {
+    width: 30%;
+}
+
+.control-icon {
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    color: rgb(124, 192, 22);
 }
 
 /* portrait screens media query styling */
