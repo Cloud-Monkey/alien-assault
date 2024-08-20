@@ -167,3 +167,29 @@ input {
     height: 30%;
     margin: auto;
 }
+
+@media screen and (orientation: portrait) {
+    main {
+        width: 90vw;
+        min-height: 60vh;
+        height: 85vh;
+    }
+
+    .grid {
+        width: 90vw;
+        height: 100vw;
+    }
+
+    .title-grid {
+        min-height: 80vh;
+        height: 100%;
+    }
+
+    .credit-text {
+        padding-top: 0.75em;
+    }
+
+    .alien-gif {
+        width: 50%;
+    }
+}

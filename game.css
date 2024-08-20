@@ -219,3 +219,38 @@ input {
 .modal-button:hover {
     background-color: rgb(18, 150, 71);
 }
+
+/* portrait screens media query styling */
+
+@media screen and (orientation: portrait) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90vw;
+        min-height: 60vh;
+        height: 85vh;
+    }
+
+    .grid {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .title-grid {
+        min-height: 80vh;
+        height: 100%;
+    }
+
+    .credit-text {
+        padding-top: 0.75em;
+    }
+
+    .modal {
+        width: 60%;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+}
