@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     squares[currentShooterIndex].classList.add('shooter')
 
     // move the shooter along a line
-    function moveShooter(e) {
+    function moveShooter(e, isClick = false, direction = "left") {
         if (gameActive) {
             squares[currentShooterIndex].classList.remove('shooter')
             switch (e.keyCode) {
@@ -50,6 +50,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 case 39:
                     if (currentShooterIndex % width < width - 1) currentShooterIndex += 1
                     break
+            }
+            squares[currentShooterIndex].classList.add('shooter')
+        }
+        if (gameActive && direction === "left" && isClick) {
+            squares[currentShooterIndex].classList.remove('shooter')
+            if (currentShooterIndex % width !== 0) {
+                currentShooterIndex -= 1
+            }
+            squares[currentShooterIndex].classList.add('shooter')
+        } else if (gameActive && direction === "right" && isClick) {
+            squares[currentShooterIndex].classList.remove('shooter')
+            if (currentShooterIndex % width < width - 1) {
+                currentShooterIndex += 1
             }
             squares[currentShooterIndex].classList.add('shooter')
         }
@@ -124,13 +137,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // make ship fly off on win condition scenario
             squares.forEach((square, index) => {
                 if (currentShooterIndex % 20 === index % 20) {
-                setTimeout(() => {
-                    square.classList = 'shooter'
-                }, Math.random() * 950)
-                setTimeout(() => {
-                    square.classList = ''
-                }, 950)
-            }
+                    setTimeout(() => {
+                        square.classList = 'shooter'
+                    }, Math.random() * 950)
+                    setTimeout(() => {
+                        square.classList = ''
+                    }, 950)
+                }
             })
             // make modal appear with win
             modalTitle.textContent = 'WAY TO GO!';
@@ -209,7 +222,22 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     document.addEventListener('keyup', shoot)
+
+    // add listener event for shoot touchscreen button on click and double click
     fireButton.addEventListener('click', (event) => {
+        console.log(event)
         shoot(event, true)
+    })
+    fireButton.addEventListener('dblclick', (event) => {
+        shoot(event, true)
+    })
+
+    // add listener event for left and right touchscreen buttons on click
+    leftControl.addEventListener('click', (event) => {
+        moveShooter(event, true, "left")
+    })
+
+    rightControl.addEventListener('click', (event) => {
+        moveShooter(event, true, "right")
     })
 })
