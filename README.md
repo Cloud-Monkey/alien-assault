@@ -6,6 +6,8 @@
 
 Our retro-style alien invader video game is a nostalgic nod to classic titles like Space Invaders. Featuring iconic 8-bit music and sound effects, it promises an immersive throwback experience. Simple yet engaging, it brings back the thrill of old-school gaming with a modern twist. The game includes an eye-catching title screen, a straightforward play button, and a dynamic game screen where the action unfolds.
 
+![alien assaulter img](/assets/read-me-images/project-overview-image.png)
+
 ### Design direction
 Retro aesthetics: Embrace a pixelated 8-bit visual style.
 Bold, vibrant colors: Catching eyes, invoking classic game vibes.
@@ -14,11 +16,12 @@ Nostalgic elements: Include familiar arcade icons, sprites, and fonts.
 
 ### Website Structure
 Hero Section: Appealing title screen, a play button, and an introduction.
-Game Features: Description of the gameplay, screenshots.
+Game Scree: Play area with retro graphics and sound, win and loss scenarios with modals and effects.
 Benefits: Highlights of the nostalgic and authentic experience.
-CTAs: Buttons to start playing immediately.
+CTAs: Buttons to start playing immediately and return home once won or lost.
 
 ## List of features
+
 
 
 ## UX/UI
@@ -62,7 +65,13 @@ Modal base code https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mo
 Larger/animated ship sprite
 Hi score display and scoreboard using local storage
 Alien enemies shoot back at starship and can cause loss scenario
+More Stages with faster alien speeds to increase difficulty
 Lives display and increment on loss conditions
+Coin in button for Coin-op type interface
 Credits display increment/decrement
+How to play information section or display
+Custom Assests (Pixel art animations and 8bit music and sfx composition)
 
 ## Known Bugs
+
+slight stretch on Ipad type devices
