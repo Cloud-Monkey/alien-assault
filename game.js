@@ -236,8 +236,14 @@ document.addEventListener("DOMContentLoaded", () => {
     leftControl.addEventListener('click', (event) => {
         moveShooter(event, true, "left")
     })
+    leftControl.addEventListener('dblclick', (event) => {
+        moveShooter(event, true, "left")
+    })
 
     rightControl.addEventListener('click', (event) => {
+        moveShooter(event, true, "right")
+    })
+    rightControl.addEventListener('dblclick', (event) => {
         moveShooter(event, true, "right")
     })
 })
