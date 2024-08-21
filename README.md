@@ -99,15 +99,15 @@ Modal base code https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mo
 
 ## Future features
 
-Larger/animated ship sprite
-Hi score display and scoreboard using local storage
-Alien enemies shoot back at starship and can cause loss scenario
-More Stages with faster alien speeds to increase difficulty
-Lives display and increment on loss conditions
-Coin in button for Coin-op type interface
-Credits display increment/decrement
-How to play information section or display
-Custom Assests (Pixel art animations and 8bit music and sfx composition)
+#### Larger/animated ship sprite
+#### Hi score display and scoreboard using local storage
+#### Alien enemies shoot back at starship and can cause loss scenario
+#### More Stages with faster alien speeds to increase difficulty
+#### Lives display and increment on loss conditions
+#### Coin in button for Coin-op type interface
+#### Credits display increment/decrement
+#### How to play information section or display
+#### Custom Assests (Pixel art animations and 8bit music and sfx composition)
 
 ## Known Bugs
 
