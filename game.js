@@ -103,10 +103,10 @@ document.addEventListener("DOMContentLoaded", () => {
             squares.forEach(square => {
                 setTimeout(() => {
                     square.classList = 'boom'
-                }, Math.random() * 750)
+                }, Math.random() * 650)
                 setTimeout(() => {
                     square.classList = ''
-                }, 750)
+                }, 650)
             })
             // make modal appear with game over
             winLossModal.style.display = "block";
