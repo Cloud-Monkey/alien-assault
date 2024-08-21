@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // shoot at aliens
-    function shoot(e) {
+    function shoot(e, isClick = false) {
         if (gameActive) {
             let laserId
             let currentLaserIndex = currentShooterIndex
@@ -193,14 +193,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
 
-            switch (e.keyCode) {
-                case 32:
-                    laserId = setInterval(moveLaser, 100)
-                    // play firing sound effect
-                    makeShotSound();
-                    break
+            if (isClick) {
+                laserId = setInterval(moveLaser, 100)
+                // play firing sound effect
+                makeShotSound();
+            } else {
+                switch (e.keyCode) {
+                    case 32:
+                        laserId = setInterval(moveLaser, 100)
+                        // play firing sound effect
+                        makeShotSound();
+                        break
+                }
             }
         }
     }
     document.addEventListener('keyup', shoot)
+    fireButton.addEventListener('click', (event) => {
+        shoot(event, true)
+    })
 })
