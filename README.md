@@ -24,7 +24,37 @@ Benefits: Highlights of the nostalgic and authentic experience.
 CTAs: Buttons to start playing immediately and return home once won or lost.
 
 ## List of features
+Home screen
 
+8bit title music
+
+Animated Pixel Letters Game title GIF
+
+Animated Alien GIF
+
+Play button
+
+Audio controls (Play/Pause Mute and volume slider)
+
+Credits readout in pixel font
+
+Game screen
+
+8bit game screen music
+
+Alien Assaulters GIF (Explosion effect/sound when hit, attack movement sequence)
+
+StarShip (Laser shot graphic/sound, ability to move left and right)
+
+Audio controls (Play/Pause Mute and volume slider)
+
+Working score readout in pixel font
+
+Credits readout in pixel font
+
+Win Modal and StarShip hyperspace animation on win (Destroy all Alian Assaulters)
+
+Loss Modal and screen explosion animation on loss (Get hit by Alien or Aliens reach the bottom of the game screen)
 
 
 ## UX/UI
@@ -37,7 +67,9 @@ CTAs: Buttons to start playing immediately and return home once won or lost.
 
 Deployment to Github pages.
 
-https://cloud-monkey.github.io/alien-assault/game.html
+![deployment guide screenshot img](/assets/read-me-images/deployment-img.png) 
+
+https://cloud-monkey.github.io/alien-assault/index.html
 
 ## Citation of ALL sources(code, images, text)
 
