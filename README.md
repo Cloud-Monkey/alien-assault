@@ -6,7 +6,8 @@
 
 Our retro-style alien invader video game is a nostalgic nod to classic titles like Space Invaders. Featuring iconic 8-bit music and sound effects, it promises an immersive throwback experience. Simple yet engaging, it brings back the thrill of old-school gaming with a modern twist. The game includes an eye-catching title screen, a straightforward play button, and a dynamic game screen where the action unfolds.
 
-https://cloud-monkey.github.io/alien-assault/game.html
+### Site Address
+https://cloud-monkey.github.io/alien-assault/index.html
 
 ![alien assaulter img](/assets/read-me-images/project-overview-image.png)
 
