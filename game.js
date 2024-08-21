@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const winLossModal = document.getElementById("win-loss-modal");
     const modalTitle = document.getElementById("modal-title");
     const modalTitle2 = document.getElementById("modal-title-2");
+    const leftControl = document.getElementById("left-control");
+    const rightControl = document.getElementById("right-control");
+    const fireButton = document.getElementById("fire-button");
 
     let width = 20
     let currentShooterIndex = 390
@@ -199,6 +202,5 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     }
-
     document.addEventListener('keyup', shoot)
 })
