@@ -9,7 +9,9 @@ Our retro-style alien invader video game is a nostalgic nod to classic titles li
 ### Site Address
 https://cloud-monkey.github.io/alien-assault/index.html
 
-![alien assaulter img](/assets/read-me-images/project-overview-image.png)
+![am I responsive home screen img](/assets/read-me-images/project-overview-image.png)
+
+![am I responsive home screen img](/assets/read-me-images/project-overview-image2.png)
 
 ### Design direction
 Retro aesthetics: Embrace a pixelated 8-bit visual style.
@@ -22,39 +24,40 @@ Hero Section: Appealing title screen, a play button, and an introduction.
 Game Scree: Play area with retro graphics and sound, win and loss scenarios with modals and effects.
 Benefits: Highlights of the nostalgic and authentic experience.
 CTAs: Buttons to start playing immediately and return home once won or lost.
+Touch Screen controls for mobile devices.
 
 ## List of features
-Home screen
+#### Home screen
 
-8bit title music
+#### 8bit title music
 
-Animated Pixel Letters Game title GIF
+#### Animated Pixel Letters Game title GIF
 
-Animated Alien GIF
+#### Animated Alien GIF
 
-Play button
+#### Play button
 
-Audio controls (Play/Pause Mute and volume slider)
+#### Audio controls (Play/Pause Mute and volume slider)
 
-Credits readout in pixel font
+#### Credits readout in pixel font
 
-Game screen
+#### Game screen
 
-8bit game screen music
+#### 8bit game screen music
 
-Alien Assaulters GIF (Explosion effect/sound when hit, attack movement sequence)
+#### Alien Assaulters GIF (Explosion effect/sound when hit, attack movement sequence)
 
-StarShip (Laser shot graphic/sound, ability to move left and right)
+#### StarShip (Laser shot graphic/sound, ability to move left and right)
 
-Audio controls (Play/Pause Mute and volume slider)
+#### Audio controls (Play/Pause Mute and volume slider)
 
-Working score readout in pixel font
+#### Working score readout in pixel font
 
-Credits readout in pixel font
+#### Credits readout in pixel font
 
-Win Modal and StarShip hyperspace animation on win (Destroy all Alian Assaulters)
+#### Win Modal and StarShip hyperspace animation on win (Destroy all Alian Assaulters)
 
-Loss Modal and screen explosion animation on loss (Get hit by Alien or Aliens reach the bottom of the game screen)
+#### Loss Modal and screen explosion animation on loss (Get hit by Alien or Aliens reach the bottom of the game screen)
 
 
 ## UX/UI
