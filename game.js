@@ -225,7 +225,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // add listener event for shoot touchscreen button on click and double click
     fireButton.addEventListener('click', (event) => {
-        console.log(event)
         shoot(event, true)
     })
     fireButton.addEventListener('dblclick', (event) => {
