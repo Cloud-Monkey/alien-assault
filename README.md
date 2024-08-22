@@ -157,6 +157,7 @@ All CSS run through Jigsaw validator no issues.
 
 ## Lighthouse
 All pages run through Lighthouse to check scores. 
+
  - Performance issues adressed with removal of Bootstrap button component. 
  - Accessibility contrast issues and Aria labels addressed to achieve scores. 
  - SEO optimised with Meta Head description and key words to achieve scores. 
