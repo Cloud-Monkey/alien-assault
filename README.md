@@ -31,60 +31,60 @@ https://cloud-monkey.github.io/alien-assault/index.html
 
 ![features diagram home](/assets/read-me-images/features-home-img.png)
 
-#### Animated Pixel Letters Game title GIF
- 1) Retro style game title with 5 second "Bounce" animation.
+#### Animated Pixel Letters Game title GIF (1)
+Retro style game title with 5 second "Bounce" animation.
 
-#### Animated Alien GIF
- 2) Retro theme title hero with simple animation loop.
+#### Animated Alien GIF (2)
+Retro theme title hero with simple animation loop.
 
-#### "Play" call to action button
- 3) Clearly visible and appropiately styled play button.
+#### "Play" call to action button (3)
+Clearly visible and appropiately styled play button.
 
-#### Audio controls (Play/Pause Mute and volume slider)
- 4) Controls for title music.
+#### Audio controls (Play/Pause Mute and volume slider) (4)
+Controls for title music.
 
-#### Credits readout in pixel font
- 5) Pixel type font used to enhance overall look inspiration taking from original Space Invaders.
+#### Credits readout in pixel font (5)
+Pixel type font used to enhance overall look inspiration taking from original Space Invaders.
 
-#### 8bit title music and sound fx
- 6) See citation section for full details.
+#### 8bit title music and sound fx (6)
+See citation section for full details.
 
 ### Game screen
 
 ![features diagram game](/assets/read-me-images/features-game-img.png)
 
-#### Alien Assaulters GIF (Explosion effect/sound when hit, attack movement sequence)
- 1) Retro theme "Alien" with simple animation, png file for explosion and mp3 for sound fx
+#### Alien Assaulters GIF (Explosion effect/sound when hit, attack movement sequence) (1)
+Retro theme "Alien" with simple animation, png file for explosion and mp3 for sound fx
 
-#### StarShip (Laser shot graphic/sound, ability to move left and right)
- 2) Retro theme "Starship" png, laser png and mp3 for sound fx
+#### StarShip (Laser shot graphic/sound, ability to move left and right) (2)
+Retro theme "Starship" png, laser png and mp3 for sound fx
 
-#### Win Modal and StarShip hyperspace animation on win (Destroy all Alian Assaulters)
- 3) Pop up "win" noification modal when all "aliens" are destroyed with "hyperspace" effect on "starship".
+#### Win Modal and StarShip hyperspace animation on win (Destroy all Alian Assaulters) (3)
+Pop up "win" noification modal when all "aliens" are destroyed with "hyperspace" effect on "starship".
 
 ![win modal img](/assets/read-me-images/win-modal-img.png)
 
-#### Loss Modal and screen explosion animation on loss (Get hit by Alien or Aliens reach the bottom of the game screen)
- 4) Pop up "loss" noification modal when "aliens" either reach the bottom of the game screen or collide with the "starship" causing "explosions" animation across the game screen.
+#### Loss Modal and screen explosion animation on loss (Get hit by Alien or Aliens reach the bottom of the game screen) (4)
+Pop up "loss" noification modal when "aliens" either reach the bottom of the game screen or collide with the "starship" causing "explosions" animation across the game screen.
 
 ![loss modal img](/assets/read-me-images/loss-modal-img.png)
 
-#### Touch Screen Controls
- 5) Hidden overlay touchscreen controls for "left", "right", and "fire-laser" only show on mobile devices where no keyboard is present.
+#### Touch Screen Controls (5)
+Hidden overlay touchscreen controls for "left", "right", and "fire-laser" only show on mobile devices where no keyboard is present.
 
 ![touch screen controls img](/assets/read-me-images/touchscreen-controls.png)
 
-#### Audio controls (Play/Pause Mute and volume slider)
- 6) Same control feature for audio as home page
+#### Audio controls (Play/Pause Mute and volume slider) (6)
+Same control feature for audio as home page
 
-#### Working score readout in pixel font
- 7) Pixel type font used to enhance overall look inspiration taking from original Space Invaders.
+#### Working score readout in pixel font (7)
+Pixel type font used to enhance overall look inspiration taking from original Space Invaders.
 
-#### Credits readout in pixel font
- 8) Same "credits" feature as home page.
+#### Credits readout in pixel font (8)
+Same "credits" feature as home page.
 
-#### 8bit game screen music and sound fx
- 9) See citation section for full details
+#### 8bit game screen music and sound fx (9)
+See citation section for full details
 
 
 # UX/UI
