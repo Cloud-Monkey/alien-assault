@@ -2,7 +2,7 @@
 
 ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png) ![alien assaulter img](/assets/images/alien1.png)
 
-## Project overview
+# Project overview
 
 Alien Assault is a retro-style alien invader video game and a nostalgic nod to classic titles like Space Invaders. Featuring iconic 8-bit music and sound effects, it promises an immersive throwback experience. Simple yet engaging, it brings back the thrill of old-school gaming with a modern twist. The game includes an eye-catching title screen, a straightforward play button, and a dynamic game screen where the action unfolds.
 
@@ -24,7 +24,7 @@ https://cloud-monkey.github.io/alien-assault/index.html
  - Try to destroy all the Alien Assaulters before they reach your Starship.
 
 
-## List of features
+# List of features
 
 #### Home screen
 
@@ -73,7 +73,7 @@ Same "credits" feature as home page.
 See citation section for full details
 
 
-## UX/UI
+# UX/UI
 
 ### Audience Properties:
 Key Demographics: Ages 30-50, retro gamers, tech enthusiasts, early adopters.
@@ -118,7 +118,7 @@ Touch Screen controls for mobile devices.
 Initial designs produced using https://app.scene.io/ Design rolled back to a simple two page design during the iterative process.
 
 
-## Testing
+# Testing
 
 Website tested for responsivity of all pages and components by sight and manual testing, for three screen sizes Mobile, Laptop, and Desktop.
 
