@@ -29,20 +29,25 @@ https://cloud-monkey.github.io/alien-assault/index.html
 
 #### Home screen
 
+![features diagram home](/assets/read-me-images/features-home-img.png)
+
 #### Animated Pixel Letters Game title GIF
-Retro style game title with 5 second "Bounce" animation
+ 1) Retro style game title with 5 second "Bounce" animation.
 
 #### Animated Alien GIF
-Retro theme title hero with simple animation loop
+ 2) Retro theme title hero with simple animation loop.
+
+#### "Play" call to action button
+ 3) Clearly visible and appropiately styled play button.
 
 #### Audio controls (Play/Pause Mute and volume slider)
-Controls for title music
+ 4) Controls for title music.
 
 #### Credits readout in pixel font
-Pixel type font used to enhance overall look inspiration taking from original Space Invaders
+ 5) Pixel type font used to enhance overall look inspiration taking from original Space Invaders.
 
 #### 8bit title music and sound fx
-See citation section for full details
+ 6) See citation section for full details.
 
 #### Game screen
 
