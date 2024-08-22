@@ -150,7 +150,7 @@ Current build works with no errors in browser and mobile views.
 Bugs prioritsed to next iteration due to hard stop deadline.
 
 ## CSS Validation
-All CSS run through validator no issues.
+All CSS run through Jigsaw validator no issues.
 
 ![css valid img1](/assets/read-me-images/css-valid1.png) ![css valid img2](/assets/read-me-images/css-valid2.png)
 
