@@ -123,6 +123,8 @@ Initial designs produced using https://app.scene.io/ Design rolled back to a sim
 
 Website tested for responsivity of all pages and components by sight and manual testing, for three screen sizes Mobile, Laptop, and Desktop.
 
+One console error due to async nature of the laser sound effect function sometimes returns an uncaught promise, can be fixed by writing an Async function, due to the current project scope this is raised as a backlog ticket for the next iteration.
+
 ## HTML Validation
 Some warnings and changes required in current deployed HTML, bug tickets raised for char format attribute removal in script tag element and button being child element of a link element.
 
