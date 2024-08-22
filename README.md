@@ -139,7 +139,7 @@ All CSS run through validator no issues.
 
 ## Lighthouse
 All pages run through Lighthouse to check scores. 
- - Some performance issues adressed with removal of Bootstrap button component. 
+ - Performance issues adressed with removal of Bootstrap button component. 
  - Accessibility contrast issues and Aria labels addressed to achieve scores. 
  - SEO optimised with Meta Head description and key words to achieve scores. 
  - Further work to convert GIF formats to improve performance score added to backlog for next iteration.
