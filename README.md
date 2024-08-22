@@ -177,7 +177,7 @@ https://cloud-monkey.github.io/alien-assault/index.html
 
 ## Citation of ALL sources(code, images, text, tutorials and UX/UI tools)
 
-Learn Javascript by building 7 small games tutorial for base code structure https://youtu.be/lhNdUVh3qCc?si=KW2_5c5o5-oXu9D2
+Learn Javascript by building 7 small games tutorial https://youtu.be/lhNdUVh3qCc?si=KW2_5c5o5-oXu9D2
 
 Space game pixel images free for commercial use https://grafxkid.itch.io/mini-pixel-pack-3
 
