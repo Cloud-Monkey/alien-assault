@@ -216,6 +216,7 @@ Future planned features added to backlog for next iteration.
 #### Credits display increment/decrement - backlog
 #### How to play/comtrols information section or display - backlog
 #### Custom Assests (Pixel art animations and 8bit music and sfx composition) - backlog
+#### Pause/restart gameplay
 
 ## Known Bugs
 
