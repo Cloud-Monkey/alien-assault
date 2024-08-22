@@ -207,3 +207,5 @@ Future planned features added to backlog for next iteration.
 Slight stretch on Ipad type devices - "Bug" ticket raised.
 
 Cannot move and shoot at the same time - "Wont have" ticket raised.
+
+Console error(uncaught promise due to Async nature of "laser" sound play) - "Bug" ticket raised.
