@@ -24,6 +24,7 @@ https://cloud-monkey.github.io/alien-assault/index.html
  - Try to destroy all the Alien Assaulters before they reach your Starship.
 
 
+
 # List of features
 
 #### Home screen
@@ -196,11 +197,11 @@ Future planned features added to backlog for next iteration.
 #### Lives display and increment on loss conditions - backlog
 #### Coin in button for Coin-op type interface - backlog
 #### Credits display increment/decrement - backlog
-#### How to play information section or display - backlog
+#### How to play/comtrols information section or display - backlog
 #### Custom Assests (Pixel art animations and 8bit music and sfx composition) - backlog
 
 ## Known Bugs
 
-Slight stretch on Ipad type devices - Bug ticket raised.
+Slight stretch on Ipad type devices - "Bug" ticket raised.
 
-Cannot move and shoot at the same time - Wont have ticket raised.
+Cannot move and shoot at the same time - "Wont have" ticket raised.
