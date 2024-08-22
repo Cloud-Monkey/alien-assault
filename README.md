@@ -151,7 +151,7 @@ All pages run through Lighthouse to check scores.
 
 ## Deployment
 
-Deployment to Github pages.
+Deployment to Github pages. Quick start guide screenshot below.
 
 ![deployment guide screenshot img](/assets/read-me-images/deployment-img.png) 
 
