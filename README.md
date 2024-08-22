@@ -90,11 +90,11 @@ https://cloud-monkey.github.io/alien-assault/index.html
 # UX/UI
 
 ### Audience Properties:
-Key Demographics: Ages 30-50, retro gamers, tech enthusiasts, early adopters.
-Key Psychographics: Values nostalgia, enjoys simple yet challenging gameplay, detail-focused.
-Pain Points: Lack of authentic retro gaming experiences, poor-quality remakes.
-Buying Process: Seeks recommendations from retro gaming communities, influenced by gameplay footage, opts for instant downloads.
-Brands & Tone: Drawn to brands like Atari, Nintendo, and appreciates a straightforward yet enthusiastic tone.
+- Key Demographics: Ages 30-50, retro gamers, tech enthusiasts, early adopters.
+- Key Psychographics: Values nostalgia, enjoys simple yet challenging gameplay, detail-focused.
+- Pain Points: Lack of authentic retro gaming experiences, poor-quality remakes.
+- Buying Process: Seeks recommendations from retro gaming communities, influenced by gameplay footage, opts for instant downloads.
+- Brands & Tone: Drawn to brands like Atari, Nintendo, Midway and appreciates a straightforward yet enthusiastic tone.
 
 ### Job
 The main job of this website is to convert visitors into players. It needs to showcase the game’s nostalgia and authenticity, enticing users to engage, download, and play.
