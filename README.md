@@ -141,7 +141,7 @@ Website tested for responsivity of all pages and components by sight and manual 
 One console error due to async nature of the laser sound effect function sometimes returns an uncaught promise, can be fixed by writing an Async function, due to the current project scope this is raised as a backlog ticket for the next iteration.
 
 ## HTML Validation
-Some warnings and changes required in current deployed HTML, bug tickets raised for char format attribute removal in script tag element and button being child element of a link element.
+HTML run through W3 validator. Some warnings and changes required in current deployed HTML, bug tickets raised for character format attribute removal in script tag element and button child element of a link element.
 
 ![HTML error img 1](/assets/read-me-images/HTML-errors1.png)
 ![HTML error img 1](/assets/read-me-images/HTML-errors2.png)
