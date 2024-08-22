@@ -201,7 +201,7 @@ Deployment to Github pages guide https://docs.github.com/en/pages/quickstart
 
 Modal base code https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 
-wireframes made using https://app.scene.io
+Wireframes made using https://app.scene.io
 
 ## Future features
 
