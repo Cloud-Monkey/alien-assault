@@ -100,15 +100,16 @@ Brands & Tone: Drawn to brands like Atari, Nintendo, and appreciates a straightf
 The main job of this website is to convert visitors into players. It needs to showcase the game’s nostalgia and authenticity, enticing users to engage, download, and play.
 
 ### Messaging and tone
-Brand Archetype: Jester (pleasure).
+
 Tone Characteristics:
 Humorous, Informative: Make the gaming experience fun and clarify how it brings nostalgia.
-Trustworthy, Friendly: Build trust through relatable and welcoming communication.
+
 Passionate, Upbeat: Show excitement about reviving a beloved classic.
+
 Example Messaging:
 “Relive the arcade magic!”
 “Blast from the past? More like blast off!”
-“Your favorite 8-bit alien invasion awaits.”
+“Your favorite 8-bit alien assault awaits.”
 
 ### Design direction
 Retro aesthetics: Embrace a pixelated 8-bit visual style.
