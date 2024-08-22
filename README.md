@@ -107,7 +107,31 @@ Benefits: Highlights of the nostalgic and authentic experience.
 CTAs: Buttons to start playing immediately and return home once won or lost.
 Touch Screen controls for mobile devices.
 
+### Wireframes
+
+![ui image 1](/assets/read-me-images/UI-img1.png)
+
+![ui image 2](/assets/read-me-images/UI-img2.png)
+
+Initial designs produced using https://app.scene.io/ Design rolled back to a simple two page design during the iterative process.
+
 ## Testing
+
+Website tested for responsivity of all pages and components by sight and manual testing, for three screen sizes Mobile, Laptop, and Desktop.
+
+## HTML Validation
+Some warnings and changes required in current deployed HTML bug tickets raised for unclosed elements, name convention, file formats etc, to be tackled in next project iteration.
+
+Current build works with no errors in browser views.
+Bugs prioritsed to next iteration due to hard stop deadline.
+
+## CSS Validation
+All CSS run through validator no issues.
+
+## Lighthouse
+All pages run through Lighthouse to check scores some performance issues adressed with removal of Bootstrap button component. Further work to convert GIF formats for better performance added to backlog for next iteration.
+
+
 
 
 ## Deployment
@@ -148,18 +172,20 @@ wireframes made using https://app.scene.io
 
 ## Future features
 
-#### Larger/animated ship sprite
-#### Hi score display and scoreboard using local storage
-#### Alien enemies shoot back at starship and can cause loss scenario
-#### More Stages with faster alien speeds to increase difficulty
-#### Lives display and increment on loss conditions
-#### Coin in button for Coin-op type interface
-#### Credits display increment/decrement
-#### How to play information section or display
-#### Custom Assests (Pixel art animations and 8bit music and sfx composition)
+Future planned features added to backlog for next iteration.
+
+#### Larger/animated ship sprite - backlog
+#### Hi score display and scoreboard using local storage - backlog
+#### Alien enemies shoot back at starship and can cause loss scenario - backlog
+#### More Stages with faster alien speeds to increase difficulty - backlog
+#### Lives display and increment on loss conditions - backlog
+#### Coin in button for Coin-op type interface - backlog
+#### Credits display increment/decrement - backlog
+#### How to play information section or display - backlog
+#### Custom Assests (Pixel art animations and 8bit music and sfx composition) - backlog
 
 ## Known Bugs
 
-Slight stretch on Ipad type devices - Bug ticket raised
+Slight stretch on Ipad type devices - Bug ticket raised.
 
-Cannot move and shoot at the same time - Wont have ticket raised
+Cannot move and shoot at the same time - Wont have ticket raised.
