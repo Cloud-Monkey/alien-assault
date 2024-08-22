@@ -23,6 +23,7 @@ https://cloud-monkey.github.io/alien-assault/index.html
 
  - Try to destroy all the Alien Assaulters before they reach your Starship.
 
+
 ## List of features
 
 #### Home screen
@@ -71,6 +72,7 @@ Same "credits" feature as home page.
 #### 8bit game screen music and sound fx
 See citation section for full details
 
+
 ## UX/UI
 
 ### Audience Properties:
@@ -115,23 +117,36 @@ Touch Screen controls for mobile devices.
 
 Initial designs produced using https://app.scene.io/ Design rolled back to a simple two page design during the iterative process.
 
+
 ## Testing
 
 Website tested for responsivity of all pages and components by sight and manual testing, for three screen sizes Mobile, Laptop, and Desktop.
 
 ## HTML Validation
-Some warnings and changes required in current deployed HTML bug tickets raised for unclosed elements, name convention, file formats etc, to be tackled in next project iteration.
+Some warnings and changes required in current deployed HTML, bug tickets raised for char format attribute removal in script tag element and button being child element of a link element.
 
-Current build works with no errors in browser views.
+![HTML error img 1](/assets/read-me-images/HTML-errors1.png)
+![HTML error img 1](/assets/read-me-images/HTML-errors2.png)
+
+Current build works with no errors in browser and mobile views.
 Bugs prioritsed to next iteration due to hard stop deadline.
 
 ## CSS Validation
 All CSS run through validator no issues.
 
+![css valid img1](/assets/read-me-images/css-valid1.png) ![css valid img2](/assets/read-me-images/css-valid2.png)
+
+
 ## Lighthouse
-All pages run through Lighthouse to check scores some performance issues adressed with removal of Bootstrap button component. Further work to convert GIF formats for better performance added to backlog for next iteration.
+All pages run through Lighthouse to check scores. 
+ - Some performance issues adressed with removal of Bootstrap button component. 
+ - Accessibility contrast issues and Aria labels addressed to achieve scores. 
+ - SEO optimised with Meta Head description and key words to achieve scores. 
+ - Further work to convert GIF formats to improve performance score added to backlog for next iteration.
+ - Further work to use downloaded SVG formats for font awesome icons to improve performance scores added to backlog for next iteration
 
-
+![lighthouse scores img1](/assets/read-me-images/lighthouse-scores1.png)
+![lighthouse scores img2](/assets/read-me-images/lighthouse-scores2.png)
 
 
 ## Deployment
