@@ -31,7 +31,7 @@ https://cloud-monkey.github.io/alien-assault/index.html
 Retro style game title with 5 second "Bounce" animation
 
 #### Animated Alien GIF
-Retro theme title hero with simple animation
+Retro theme title hero with simple animation loop
 
 #### Audio controls (Play/Pause Mute and volume slider)
 Controls for title music
